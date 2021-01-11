@@ -1,0 +1,18 @@
+{
+  "name": "@kravc/expo-portal-polyfills",
+  "version": "0.1.1",
+  "description": "Workarounds and polyfills to make buffer and crypto work propertly with @kravc/identity in Expo.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "polyfills": "bin/setup.sh"
+  },
+  "author": "Oleksandr Kravets <a@kra.vc>",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "js-sha256": "^0.9.0"
+  }
+}
