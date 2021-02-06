@@ -1,6 +1,6 @@
 {
   "name": "@kravc/expo-portal-polyfills",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Workarounds and polyfills to make buffer and crypto work propertly with @kravc/identity in Expo.",
   "main": "src/index.js",
   "scripts": {

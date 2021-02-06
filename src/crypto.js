@@ -3,7 +3,7 @@ import sha256 from 'js-sha256'
 import { Buffer } from 'buffer'
 
 const createHash = (alg) => {
-  const isSupported = [ 'sha256' ].include(alg)
+  const isSupported = [ 'sha256' ].includes(alg)
 
   if (!isSupported) {
     throw new Error(`"${alg}" is not supported`)
